@@ -7,7 +7,7 @@ import {
   useState,
 } from "react";
 import "./App.css";
-import useFetch from "./old/useFetch";
+import useFetch from "../old/useFetch";
 
 function App() {
   const [count, setCount] = useState(0);

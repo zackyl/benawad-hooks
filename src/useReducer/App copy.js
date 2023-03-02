@@ -8,7 +8,7 @@ import {
   useState,
 } from "react";
 import "./App.css";
-import useFetch from "./old/useFetch";
+import useFetch from "../old/useFetch";
 
 function reducer(state, action) {
   switch (action.type) {
